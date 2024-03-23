@@ -10,9 +10,7 @@ export default {
   name: 'ComingSoon',
   methods: {
     test: function () {
-      var suffix = '';
-      if (!location.pathname.endsWith('.html')) {suffix = '.html'}
-      location.href = 'https://legopitstop.weebly.com'+location.pathname+suffix;
+      location.href = 'https://legopitstop.weebly.com'
     }
   }
 }
