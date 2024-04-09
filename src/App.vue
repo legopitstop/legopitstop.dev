@@ -1,14 +1,17 @@
 <template>
   <ComingSoon />
+  <FooterBar />
 </template>
 
 <script>
 import ComingSoon from './components/ComingSoon.vue'
+import FooterBar from './components/FooterBar.vue'
 
 export default {
   name: 'App',
   components: {
-    ComingSoon
+    ComingSoon,
+    FooterBar
   }
 }
 </script>

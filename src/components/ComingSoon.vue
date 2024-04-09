@@ -23,6 +23,7 @@ h2  {
 }
 
 h3 {
+  display: inline;
   color: #f80;
   cursor: pointer;
   text-decoration: underline;
