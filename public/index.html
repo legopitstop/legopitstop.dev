@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="shortcut icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+
+  <!-- Meta Tags Generated with https://metatags.io -->
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Legopitstop" />
+  <meta name="description" content="New Legopitstop Website a gateway to every Minecraft mod! customize your blocky world." />
+  <meta name="keywords" content="Legopitstop,Minecraft,maps,resource packs,data packs,texture packs,#legopitstop,@legopitstop" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:site_name" content="Legopitstop" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://legopitstop.dev/" />
+  <meta property="og:title" content="Legopitstop" />
+  <meta property="og:description" content="New Legopitstop Website a gateway to every Minecraft mod! customize your blocky world." />
+  <meta property="og:image" content="<%= BASE_URL %>assets/image.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="http://legopitstop.dev/" />
+  <meta property="twitter:title" content="Legopitstop" />
+  <meta property="twitter:description" content="New Legopitstop Website a gateway to every Minecraft mod! customize your blocky world." />
+  <meta property="twitter:image" content="<%= BASE_URL %>assets/image.png" />
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
 </html>
