@@ -1,13 +1,13 @@
 <template>
-    <footer>
-        <p>LEGO® is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this site.</p>
-    </footer>
+  <footer>
+    <p>Not associated with or approved by Mojang Studios</p>
+  </footer>
 </template>
 
 <script>
-    export default {
-        name: 'FooterBar'
-    }
+export default {
+  name: "FooterBar",
+};
 </script>
 
 <style scoped>
@@ -18,5 +18,8 @@ footer {
   width: 100%;
   background-color: #181818;
   text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
+
 </style>
